@@ -16,7 +16,7 @@ function todo(state = initialState, action) {
         searchLists: [...state.searchLists, ...action.payload.items],
         pageToken: action.payload?.nextPageToken,
         errorMessage: action.payload.errorMessage,
-        hasMore: action.payload?.nextPageToken,
+        hasMore: !!action.payload?.nextPageToken,
         isLoading: false,
       };
     case "LOADING":

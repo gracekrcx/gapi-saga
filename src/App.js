@@ -126,6 +126,7 @@ App.propTypes = {
   getSearchLists: PropTypes.func,
   searchLists: PropTypes.array,
   isLoading: PropTypes.bool,
+  hasMore: PropTypes.bool,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
