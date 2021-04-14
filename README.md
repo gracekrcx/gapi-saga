@@ -1,1 +1,3 @@
-# Getting Started google api with Create React App
+### 使用技術
+- redux-saga
+- Intersection Observer
